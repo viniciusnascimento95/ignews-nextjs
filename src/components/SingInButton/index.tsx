@@ -14,7 +14,7 @@ export function SingInButton () {
         className={styles.singInButton}
         >
             <FaGithub color="#04d361" />
-            Vinicius Nascimento
+            Viniciusnascimento95
 
             <FiX color="#737380" className={styles.closeIcon}/>
         </button>
