@@ -1,18 +1,14 @@
 import { FaGithub } from 'react-icons/fa';
 import { FiX } from 'react-icons/fi'
 import { signIn, signOut, useSession } from 'next-auth/react'
-
 import styles from './styles.module.scss';
-
 
 export function SingInButton () {
 
     // const [session] = useSession()
-    const { data: session } = useSession();
+    const { data: session } = useSession()
 
-    console.log(session)
-
-    const isUserLoggedIn = true;
+    // console.log(session);
 
     return session ? (
         <button 
